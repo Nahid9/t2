@@ -39,7 +39,7 @@ custom_objects = {
 }
 
 with custom_object_scope(custom_objects):
-    model = load_model("mobilenet_corn1.h5")  # Update path if needed
+    model = load_model("mobilenet_corn.h5")  # Update path if needed
 
 # Preprocess image
 def preprocess_image(image_file):
